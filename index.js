@@ -191,6 +191,7 @@ Bg1.addEventListener('click', () => {
     // REMOVE
     Bg2.classList.remove('active');
     Bg3.classList.remove('active');
+    window.location.reload()
 })
 Bg2.addEventListener('click', () => {
     darkColorLightness = '95%'
